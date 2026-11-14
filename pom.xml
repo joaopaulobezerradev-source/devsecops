@@ -13,9 +13,9 @@
         <maven.compiler.release>17</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <!-- SonarCloud: troque pelos valores da sua organização/projeto -->
-        <sonar.organization>SUA_ORGANIZACAO</sonar.organization>
-        <sonar.projectKey>SUA_ORGANIZACAO_sonar-buggy-example</sonar.projectKey>
+        <!-- SonarCloud -->
+        <sonar.organization>joaopaulobezerradev-source</sonar.organization>
+        <sonar.projectKey>joaopaulobezerradev-source_devsecops</sonar.projectKey>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
